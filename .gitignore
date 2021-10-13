@@ -21,3 +21,36 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+.idea
+
+/litelogger-backend/target/
+!/litelogger-backend/.mvn/wrapper/maven-wrapper.jar
+!**/litelogger-backend/src/main/**/target/
+!**/litelogger-backend/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/litelogger-backend/nbproject/private/
+/litelogger-backend/nbbuild/
+/litelogger-backend/dist/
+/litelogger-backend/nbdist/
+/litelogger-backend/.nb-gradle/
+/litelogger-backendbuild/
+!**/litelogger-backend/src/main/**/build/
+!**/litelogger-backend/src/test/**/build/
+
+### VS Code ###
+/litelogger-backend/.vscode/
